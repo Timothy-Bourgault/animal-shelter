@@ -3,30 +3,35 @@
   background-color: lightblue;
   width: 18%;
   padding:12px;
+  margin-right: 5px;
 }
 .column2 {
   float: left;
   background-color: lightblue;
   width: 18%;
   padding:12px;
+  margin-right: 5px;
 }
 .column3 {
   float: left;
   background-color: lightblue;
   width: 18%;
   padding:12px;
+  margin-right: 5px;
 }
 .column4 {
   float: left;
   background-color: lightblue;
   width: 18%;
   padding:12px;
+  margin-right: 5px;
 }
 .column5 {
   float: left;
   background-color: lightblue;
   width: 18%;
   padding:12px;
+  margin-right: 5px;
 }
 img {
   width:200px;
@@ -36,7 +41,7 @@ img {
 h1 {
   text-align: center;
   color: pink;
-  font-size: 50px;
+  font-size: 80px;
   font-family: cursive;
 }
 h3 {
@@ -47,4 +52,35 @@ h3 {
 }
 body {
   background-color: darkblue;
+}
+.column5 p {
+  font-family: monospace;
+  border: 2px dashed blue;
+  padding: 4px;
+}
+.column4 p {
+  font-family: sans-serif;
+  border: 2px dashed white;
+  padding: 4px;
+}
+.column3 p {
+  font-family: monospace;
+  border: 2px dashed blue;
+  padding: 4px;
+}
+.column2 p {
+  font-family: sans-serif;;
+  border: 2px dashed white;
+  padding: 4px;
+}
+.column1 p {
+  font-family: monospace;;
+  border: 2px dashed blue;
+  padding: 4px;
+}
+.logo {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: auto;
 }
