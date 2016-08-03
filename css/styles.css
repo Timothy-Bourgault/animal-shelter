@@ -84,3 +84,11 @@ body {
   display: block;
   margin: auto;
 }
+@media screen and (max-width: 1000px) {
+  body {
+    background: grey;
+  }
+}
+@media screen and (max-width: 500px) {
+  
+}
