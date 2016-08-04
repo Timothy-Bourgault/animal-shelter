@@ -1,32 +1,4 @@
-.column1 {
-  float: left;
-  background-color: lightblue;
-  width: 18%;
-  padding:12px;
-  margin-right: 5px;
-}
-.column2 {
-  float: left;
-  background-color: lightblue;
-  width: 18%;
-  padding:12px;
-  margin-right: 5px;
-}
-.column3 {
-  float: left;
-  background-color: lightblue;
-  width: 18%;
-  padding:12px;
-  margin-right: 5px;
-}
-.column4 {
-  float: left;
-  background-color: lightblue;
-  width: 18%;
-  padding:12px;
-  margin-right: 5px;
-}
-.column5 {
+.leftfloat {
   float: left;
   background-color: lightblue;
   width: 18%;
@@ -53,28 +25,8 @@ h3 {
 body {
   background-color: darkblue;
 }
-.column5 p {
+.column p {
   font-family: monospace;
-  border: 2px dashed blue;
-  padding: 4px;
-}
-.column4 p {
-  font-family: sans-serif;
-  border: 2px dashed white;
-  padding: 4px;
-}
-.column3 p {
-  font-family: monospace;
-  border: 2px dashed blue;
-  padding: 4px;
-}
-.column2 p {
-  font-family: sans-serif;;
-  border: 2px dashed white;
-  padding: 4px;
-}
-.column1 p {
-  font-family: monospace;;
   border: 2px dashed blue;
   padding: 4px;
 }
@@ -84,11 +36,14 @@ body {
   display: block;
   margin: auto;
 }
-@media screen and (max-width: 1000px) {
-  body {
-    background: grey;
+@media screen and (max-width: 700px) {
+  .column {
+    width: 40%;
   }
 }
-@media screen and (max-width: 500px) {
-  
+@media screen and (max-width: 350px) {
+  .column {
+    width: 90%;
+  }
+
 }
